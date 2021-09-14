@@ -1,13 +1,13 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
-    SUPPORT_CHAT_LINK = ""
+    BOT_TOKEN = "1681897256:AAHMzXTaV4GGWlkbnMPkS-ACCQkbZX-myIM"
+    APP_ID = "924859"
+    API_HASH = "a4c9a18cf4d8cb24062ff6916597f832"
+    DATABASE_URL = "mongodb+srv://user2:user@cluster0.uwhes.mongodb.net/user3"
+    SUDO_USERS = "754495556" # Sepearted by space.
+    SUPPORT_CHAT_LINK = "HxSupport"
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
+    G_DRIVE_CLIENT_ID = "825923466109-6svkf1f5sr7kueqngd3j56l451753tb8.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "LjOO-LUXUVCBlqA9IEbQUccX"
 
 
 class BotCommands:
