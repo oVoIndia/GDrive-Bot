@@ -1,13 +1,13 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
-    SUPPORT_CHAT_LINK = ""
+    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    APP_ID = int(os.environ.get("APP_ID"))
+    API_HASH = os.environ.get("API_HASH")
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    SUDO_USERS = int(os.environ.get("SUDO_USERS")) # Sepearted by space.
+    SUPPORT_CHAT_LINK = os.environ.get("SUPPORT_CHAT_LINK")
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
+    G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID")
+    G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET")
 
 
 class BotCommands:
